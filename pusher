@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "Enter Your Name: "
+echo "Enter Your Commit: "
 read my_var
-echo "Welcome ${my_var}!"
+echo "your commit is ${my_var}!"
 
 git add .
 git commit -m "${my_var}"
